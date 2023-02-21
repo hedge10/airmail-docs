@@ -2,7 +2,6 @@
   "name": "airmail-docs",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "authors": {
     "name": "",
     "email": ""
@@ -12,8 +11,11 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
+  "engines": {
+    "node": ">=14.0.0 <18.0.0"
+  },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.9.0"
   }
 }
