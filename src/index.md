@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline:
+heroImage:
+tagline: Your self-hosted form service
 actionText: Quick Start →
 actionLink: /docs/
 features:
-  - title: Self-hosted
-    details: On-premise, system-wide, SaaS, you choose.
-  - title: Blazing fast
-    details: Feature 2 Description
-  - title: F 3
-    details: Feature 3 Description
-footer: Made by  with ❤️
+  - title: ☁️ Runs everywhere
+    details: Docker or local installation (arm/intel)
+  - title: 📦 Ready to go
+    details: Validation, multiple recipients, mime-type,... all done
+  - title: 💾 Store everything
+    details: "Store your messages: SQLite, MySQL, PostgreSQL"
+footer: ""
 ---

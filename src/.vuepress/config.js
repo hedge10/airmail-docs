@@ -41,17 +41,17 @@ module.exports = {
         text: "Documentation",
         link: "/docs/",
       },
-      {
-        text: "Airmail Pro",
-        link: "https://www.viaairmail.de",
-      },
+      // {
+      //   text: "Airmail Pro",
+      //   link: "https://www.viaairmail.de",
+      // },
     ],
     sidebar: {
       "/docs/": [
         {
           title: "Documentation",
           collapsable: false,
-          children: ["", "getting-started", "requests"],
+          children: ["", "getting-started", "messages"],
         },
       ],
     },

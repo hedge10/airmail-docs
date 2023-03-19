@@ -1,10 +1,10 @@
 {
   "name": "airmail-docs",
   "version": "0.0.1",
-  "description": "",
+  "description": "Documentation for hedge10/airmail form service.",
   "authors": {
-    "name": "",
-    "email": ""
+    "name": "Holger Lösken",
+    "email": "holger.loesken@codedge.de"
   },
   "repository": "/airmail-docs",
   "scripts": {
@@ -17,5 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.0"
+  },
+  "dependencies": {
+    "jshint": "^2.13.6"
   }
 }
