@@ -28,7 +28,7 @@ services:
 
 Head over to the [releases page](https://github.com/hedge10/airmail/releases) on Github grab the version suitable for your operating system.
 
-## Configuration
+## Configuration reference
 
 _Airmail_ is configured via environment variables. Please see the following reference for individual setup.
 
@@ -44,3 +44,11 @@ _Airmail_ is configured via environment variables. Please see the following refe
 | `AM_DEBUG`               | `false`       | Enable more logging output                             |
 | `AM_ENV`                 | `dev`         | Set the stage airmail is running on                    |
 | `AM_GRECAPTCHA_SECRET`   | _none_        | See [captcha section](messages.md#captcha-validation)  |
+| `AM_USE_STORAGE`         | `false`       | Store your messages after sending it                   |
+| `AM_STORAGE_TYPE`        | `mongodb`     | Only `mongodb` is currently supported                  |
+| `AM_MONGODB_HOST`        | `localhost`   | MongoDB host                                           |
+| `AM_MONGODB_PORT`        | `27017`       | MongoDB port                                           |
+| `AM_MONGODB_DB`          | `airmail`     | MongoDB database                                       |
+| `AM_MONGODB_COLLECTION`  | `messages`    | MongoDB collection                                     |
+| `AM_MONGODB_USERNAME`    | _none_        | Username for MongoDB authentication                    |
+| `AM_MONGODB_PASSWORD`    | _none_        | Password for MongoDB authentication                    |

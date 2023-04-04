@@ -1,4 +1,4 @@
-# Send a message
+# Send messages
 
 You can send requests either with content type `application/json` or with `application/x-www-form-urlencoded`. Other content types are not allowed and will return an error.
 

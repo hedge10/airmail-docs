@@ -8,8 +8,8 @@ features:
   - title: ☁️ Runs everywhere
     details: Docker or local installation (arm/intel)
   - title: 📦 Ready to go
-    details: Validation, multiple recipients, mime-type,... all done
-  - title: 💾 Store everything
-    details: "Store your messages: SQLite, MySQL, PostgreSQL"
+    details: Validation, multiple recipients, mime-type,... and more
+  - title: 💾 Storage
+    details: "Store all your messages in MongoDB"
 footer: ""
 ---

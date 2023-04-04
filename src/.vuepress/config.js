@@ -51,7 +51,7 @@ module.exports = {
         {
           title: "Documentation",
           collapsable: false,
-          children: ["", "getting-started", "messages"],
+          children: ["", "getting-started", "send-messages", "store-messages"],
         },
       ],
     },
