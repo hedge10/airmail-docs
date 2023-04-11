@@ -1,5 +1,9 @@
 # Store messages
 
+::: warning Access messages
+Currently there is neither a UI or any API included with _Airmail_ to access the messages in the store. You need to take care yourself.
+:::
+
 After a message has been sent successfully, it can be additionally stored. _Airmail_ uses [MongoDB](https://www.mongodb.com/) as storage backend.
 
 To enable message storage set the environment variable `AM_USE_STORAGE` to `true` and configure the connection to the MongoDB database.

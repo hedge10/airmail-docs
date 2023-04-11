@@ -41,6 +41,10 @@ module.exports = {
         text: "Documentation",
         link: "/docs/",
       },
+      {
+        text: "Github",
+        link: "https://github.com/hedge10/airmail",
+      },
       // {
       //   text: "Airmail Pro",
       //   link: "https://www.viaairmail.de",

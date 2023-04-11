@@ -1,5 +1,7 @@
 # Introduction
 
+![Airmail](/img/airmail-scheme.svg)
+
 _Airmail_ is a form service used primarly for static pages. It can take form submissions either as `application/json` or as `application/x-www-form-urlencoded` and forward these to an SMTP server of your choice.
 
 **Features**

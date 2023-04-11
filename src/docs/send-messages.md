@@ -34,11 +34,11 @@ curl -X POST http://localhost:9900 \
     "to": [
         {
             "name": "Batman & Robin",
-            "email": "batman_and_robin@warnerbros.com"
+            "address": "batman_and_robin@warnerbros.com"
         },
         {
             "name": "Mickey + Goofey",
-            "email": "mickey_and_goofey@warnerbros.com"
+            "address": "mickey_and_goofey@warnerbros.com"
         }
     ],
     "subject": "This is a marvelous email",
