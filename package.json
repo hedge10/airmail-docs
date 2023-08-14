@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.0"
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
     "jshint": "^2.13.6"
